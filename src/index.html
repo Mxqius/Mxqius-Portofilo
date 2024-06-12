@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>آقای مکسیوس | طراح و توسعه دهنده وب</title>
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link rel="stylesheet" href="../public/assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="../public/assets/images/web-icon.png">
+    <!-- Meta data -->
+    <meta property="og:title" content="آقای مکسیوس | طراح و توسعه دهنده وب" />
+    <meta property="og:description"
+        content="اقای مکسیوس هستم و اینجا وبسایت شخصی من هست . شما می‌توانید در اینجا به تمامی خدماتی که برای ساخت کسب و کار آنلاین خودتون نیاز دارید دسترسی داشته باشید ." />
+    <meta property="og:url" content="https://mxqius.ir/" />
+    <meta property="og:site_name" content="آقای مکسیوس" />
+    <meta property="og:locale" content="fa_IR" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="../public/assets/images/web-icon.png" />
+    <meta property="og:image:secure_url" content="../public/assets/images/web-icon.png" />
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512" />
+</head>
+
+<body dir="rtl" lang="fa-IR" class="bg-[#0F0F0F] min-h-screen">
+    <div class="portofilo-container mx-auto max-w-[1300px] px-[1rem] pb-[3rem]">
+        <!-- ADS (ForceConnect) -->
+        <div dir="auto" class="fixed bottom-5 left-5 bg-[#EFF6FF] w-full max-w-[760px] min-h-[50px] rounded-[5px] px-5 py-2 hidden md:flex
+                items-center z-10">
+            <div class="flex flex-row justify-between items-center w-full h-full">
+                <div class="flex justify-center items-center gap-2">
+                    <i class="fa-solid fa-circle-info text-[#60A5FA]"></i>
+                    <p class="text-[#1D63E1] font-[Kalameh]">نسخه جدیدی از برنامه رفع تحریم فورس کانکت در دسترس قرار
+                        گرفته است ، نسخه 1.7.0</p>
+                </div>
+                <div>
+                    <a href="https://fc.mxqius.ir" target="_blank" class="text-[#2563EB] font-[peyda]">اطلاعات بیشتر<i
+                            class="fa-solid fa-arrow-left text-[#2563EB] mr-2"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- Discord Profile Widget -->
+        <div dir="auto" id="discord-profile"
+            class="z-20 border-4 border-[#223F4F] bg-gradient-to-b from-[#131514] from-30% to-[#24485f] discord-shadow2 w-[345px] h-fit bg-[#292b2f] rounded-[9px] flex-col shadow-2xl fixed bottom-28 right-24 hidden opacity-0">
+            <!-- Profile Picture  **top-10 default value**-->
+            <div class="rounded-full absolute top-[67px] left-[1rem]">
+                <img id="profilePicture" class="rounded-full w-[90px] h-[90px] border-[#131514] border-[6px]"
+                    src="https://cdn.discordapp.com/avatars/923625254943875112/fa85fc6e2af5ed7cd690330daef30a49.png?size=1024"
+                    alt="profile-picture">
+                <div
+                    class="relative border-[#131514] border-[7px] bg-[#E4444A] flex justify-center items-center rounded-full size-7 bottom-[28px] left-[63px]">
+                    <div class="w-[12px] h-[4px] bg-[#131514] rounded-full"></div>
+                </div>
+                <div class="relative bottom-[120px]">
+                    <svg width="108" height="96" viewBox="0 0 108 96" class="avatarDecoration_cf681a"
+                        aria-hidden="true">
+                        <foreignObject x="0" y="0" width="96" height="96"
+                            mask="url(#svg-mask-avatar-decoration-status-round-80)">
+                            <div class="avatarStack__789b4"><img class="avatar__991e2"
+                                    src="https://cdn.discordapp.com/avatar-decoration-presets/a_ad4e2cad924bbb3a2fddf5c527370479.png?size=128&amp;passthrough=false"
+                                    alt=" " aria-hidden="true"></div>
+                        </foreignObject>
+                    </svg>
+                </div>
+            </div>
+            <!-- Header Banner/Color  **h-[15%] default height** -->
+            <div id="profileBanner" class="h-[120px] rounded-t-[9px] bg-black bg-center object-center"></div>
+            <!-- Main Content -->
+            <div class="main-content p-4">
+                <div class="flex flex-row h-fit w-full justify-end">
+                    <div
+                        class=" w-fit bg-[#18191c91] p-[7px] rounded-[7px] flex flex-row gap-[4px] items-center justify-center">
+                        <div class="w-[22px] h-[22px] cursor-pointer flex justify-center items-center"><img
+                                src="https://cdn.discordapp.com/badge-icons/3aa41de486fa12454c3761e8e223442e.png"
+                                alt="">
+                        </div>
+                        <div class="w-[22px] h-[22px] cursor-pointer flex justify-center items-center"><img
+                                src="https://sybrax.github.io/Discord-User-Card/assets/img/badges/nitro.webp" alt="">
+                        </div>
+                        <div class="w-[22px] h-[22px] cursor-pointer flex justify-center items-center"><img
+                                src="https://cdn.discordapp.com/badge-icons/72bed924410c304dbe3d00a6e593ff59.png"
+                                alt="">
+                        </div>
+                        <div class="w-[22px] h-[22px] cursor-pointer flex justify-center items-center"><img
+                                src=" https://cdn.discordapp.com/badge-icons/7060786766c9c840eb3019e725d2b358.png"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-[#18191c91] mt-4 rounded-[7px] p-[13px] pb-5">
+                    <div class="flex flex-row items-center">
+                        <h2 class="text-white text-2xl">!𝑀𝑥𝑞𝑖𝑢𝑠 ᴬʳ</h2>
+                        <div
+                            class="flex justify-center items-center text-white bg-[#5865F2] text-[0.65rem] uppercase w-fit h-fit ml-[5px] py-[2px] px-[5px] rounded-[3px]">
+                            <span class="text-center font-medium font-[gg-sans-medium]">OWNER</span>
+                        </div>
+                    </div>
+                    <span class="text-white text-sm font-[gg-sans-medium]">mxqius</span>
+                    <div class="status-text text-white mt-2 text-sm">
+                        🧠 𝗚𝗿𝗼𝘄 𝗬𝗼𝘂𝗿𝘀𝗲𝗹𝗳
+                    </div>
+                    <div class="bg-[#33353b] h-[0.5px] mt-4 sticky top-0"></div>
+                    <div class="flex justify-center profile-buttons mt-[12px]">
+                        <button
+                            class="grow p-[8px] font-[whitney_book] bg-[#555657] text-[0.85rem] font-normal rounded-[3px] hover:bg-[#66686a] transiotion duration-150"><a
+                                href="https://discord.com/users/923625254943875112" class="text-center text-sm">Send a
+                                message</a></button>
+                    </div>
+                    <div class="mt-[5px]">
+                        <span class="text-white text-xs font-[gg-sans-bold]">ABOUT ME</span>
+                        <div class="text-white text-sm">
+                            <span class="font-[Kalameh-ExtraLight]">🌙🕊️ بـِـه امیـدِ چـِشمایـی بـاز و زنـدگـی ایــے
+                                رویـایی</span>
+                            <!-- <br>
+                                                            <span>
+                                                                🛡️ • Aryans Community:<strong> https://discord.gg/G2qvEPYcpK
+                                                                    • https://zil.ink/mxqius</strong>
+                                                            </span> -->
+                        </div>
+                        <div class="flex flex-col">
+                            <div class="text-white text-xs font-[gg-sans-bold] mt-4">
+                                MEMBER SINCE
+                                <div class="mt-2">
+                                    <span class="flex flex-row gap-2 items-center font-[gg-sans-regular]">
+                                        <svg aria-label="Discord" class="discordIcon__1e1be" aria-hidden="false"
+                                            role="img" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                            fill="none" viewBox="0 0 24 24">
+                                            <path fill="currentColor"
+                                                d="M19.73 4.87a18.2 18.2 0 0 0-4.6-1.44c-.21.4-.4.8-.58 1.21-1.69-.25-3.4-.25-5.1 0-.18-.41-.37-.82-.59-1.2-1.6.27-3.14.75-4.6 1.43A19.04 19.04 0 0 0 .96 17.7a18.43 18.43 0 0 0 5.63 2.87c.46-.62.86-1.28 1.2-1.98-.65-.25-1.29-.55-1.9-.92.17-.12.32-.24.47-.37 3.58 1.7 7.7 1.7 11.28 0l.46.37c-.6.36-1.25.67-1.9.92.35.7.75 1.35 1.2 1.98 2.03-.63 3.94-1.6 5.64-2.87.47-4.87-.78-9.09-3.3-12.83ZM8.3 15.12c-1.1 0-2-1.02-2-2.27 0-1.24.88-2.26 2-2.26s2.02 1.02 2 2.26c0 1.25-.89 2.27-2 2.27Zm7.4 0c-1.1 0-2-1.02-2-2.27 0-1.24.88-2.26 2-2.26s2.02 1.02 2 2.26c0 1.25-.88 2.27-2 2.27Z"
+                                                class=""></path>
+                                        </svg> Dec 23, 2021
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- <div class="flex flex-row items-center gap-5">
+                                    <div class="text-white text-xs font-[gg-sans-bold] mt-4">
+                                        BIRTHDAY
+                                        <div class="mt-2">
+                                            <div class="flex flex-row items-center gap-1">
+                                                <div class="rounded-full h-[6px] w-[6px] bg-white"></div>
+                                                <span class="flex flex-row gap-2 items-center font-[gg-sans-regular]">
+                                                    1384/07/01
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Discord Profile Icon -->
+        <div
+            class="discord-shadow hover:scale-[1.10] transiotion duration-150 fixed rounded-full bg-[#5755FE] size-[4rem] flex justify-center items-center bottom-6 right-6">
+            <button id="discord-profile-icon" class="cursor-pointer h-full w-full"><i
+                    class="fa-brands fa-discord text-2xl"></i></button>
+        </div>
+        <!-- Header -->
+        <header class="portofilo-header flex flex-row flex-wrap justify-center items-center pt-[20px] pb-[1.5rem]">
+            <div>
+                <div class="portofilo-icon">
+                    <a href="https://mxqius.ir">
+                        <img class="w-[120px]" src="../public/assets/images/logo.png" alt="logo" />
+                    </a>
+                </div>
+            </div>
+            <div class="portofilo-nav-div flex justify-center md:gap-0 gap-5 items-center grow">
+                <nav class="portofilo-navbar">
+                    <ul class="flex flex-row font-[Kalameh-Regular] gap-4">
+                        <li class="transiotion duration-[50ms] py-[10px] px-[24px] h-[45px] hover:border-b-2 ">
+                            <a href="">بیوگرافی</a>
+                        </li>
+                        <div class="flex justify-center items-center">
+                            <div class="h-[8px] w-[0.75px] rounded-full bg-[#7A7A7A]"></div>
+                        </div>
+                        <li class="transiotion duration-[50ms] py-[10px] px-[24px] h-[45px] hover:border-b-2">
+                            <a href="">خدمات</a>
+                        </li>
+                        <div class="flex justify-center items-center">
+                            <div class="h-[8px] w-[0.75px] rounded-full bg-[#7A7A7A]"></div>
+                        </div>
+                        <li class="transiotion duration-[50ms] py-[10px] px-[24px] h-[45px] hover:border-b-2">
+                            <a href="">نمونه کارها</a>
+                        </li>
+                        <div class="flex justify-center items-center">
+                            <div class="h-[8px] w-[0.75px] rounded-full bg-[#7A7A7A]"></div>
+                        </div>
+                        <li class="transiotion duration-[50ms] py-[10px] px-[24px] h-[45px] hover:border-b-2">
+                            <a href="">رزومه کاری</a>
+                        </li>
+                        <div class="flex justify-center items-center">
+                            <div class="h-[8px] w-[0.75px] rounded-full bg-[#7A7A7A]"></div>
+                        </div>
+                        <li class="transiotion duration-[50ms] py-[10px] px-[24px] h-[45px] hover:border-b-2">
+                            <a href="">شرایط همکاری</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <a class="border-transparent border-[0.5px] transiotion duration-150 hover:border-[#919191] py-[14px] px-[38px] font-[Kalameh-Bold] button-effect flex justify-center items-center text-center"
+                    href="tel:09029964774" target="_blank" footer="">
+                    <span class="flex justify-center items-center gap-2">تماس با من<i
+                            class="fa-solid fa-phone"></i></span>
+                </a>
+            </div>
+        </header>
+        <!-- Main -->
+        <main class="portofilo-container flex flex-row gap-[1.5rem] w-full">
+            <!-- Dialog for under working -->
+            <div dir="ltr" id="dialog-working" class="relative z-30" aria-labelledby="modal-title" role="dialog"
+                aria-modal="true">
+                <!--
+                Background backdrop, show/hide based on modal state.
+            
+                Entering: "ease-out duration-300"
+                  From: "opacity-0"
+                  To: "opacity-100"
+                Leaving: "ease-in duration-200"
+                  From: "opacity-100"
+                  To: "opacity-0"
+              -->
+                <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
+
+                <div class="fixed inset-0 z-10 w-screen overflow-y-auto">
+                    <div class="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
+                        <!--
+                    Modal panel, show/hide based on modal state.
+            
+                    Entering: "ease-out duration-300"
+                      From: "opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+                      To: "opacity-100 translate-y-0 sm:scale-100"
+                    Leaving: "ease-in duration-200"
+                      From: "opacity-100 translate-y-0 sm:scale-100"
+                      To: "opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+                  -->
+                        <div
+                            class="relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg">
+                            <div class="bg-white px-4 pb-4 pt-5 sm:p-6 sm:pb-4 font-[kalameh]">
+                                <div class="sm:flex sm:items-start">
+                                    <div
+                                        class="mx-auto flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-red-100 sm:mx-0 sm:h-10 sm:w-10">
+                                        <svg class="h-6 w-6 text-red-600" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z" />
+                                        </svg>
+                                    </div>
+                                    <div class="mt-3 text-center sm:ml-4 sm:mt-0 sm:text-right">
+                                        <h class="text-base font-semibold leading-6 text-gray-900" id="modal-title"></h>
+                                        اطلاعیه</h3>
+                                        <div class="mt-2">
+                                            <p class="text-sm font-medium text-gray-500">این
+                                                صفحه در حال توسعه می باشد و نسخه ای که مشاهده میکنید نسخه نهایی
+                                                نیست ، تشکر از شکیبایی شما</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div dir="ltr" class="bg-gray-50 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6">
+                                <button id="dialog-button" type="button"
+                                    class="inline-flex w-full justify-center rounded-md bg-sky-500 px-3 py-2 text-sm font-[kalameh] text-white shadow-sm hover:bg-sky-400 sm:ml-3 sm:w-auto">متوجه
+                                    شدم</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- w-[40rem] default value -->
+            <aside class="portofilo-aside-div flex flex-row shrink grow basis-[30%] min-h-[360px]">
+                <div
+                    class="profile-aside flex flex-col transiotion duration-150 hover:border-[#919191] portofilo-effect">
+                    <div
+                        class="aside-picture-div flex flex-col justify-end rounded-t-[30px] basis-2/3 bg-cover object-fill bg-[url('../public/assets/images/profile-picture2.jpg')]">
+                        <div id="content-to-replace" class="flex flex-col px-6 gap-1">
+                            <div class="font-[Kalameh-ExtraLight] text-lg font-light">
+                                توسعه دهنده ویندوز و وب
+                            </div>
+                            <span class="font-[Kalameh-Black] text-[42px] text-shadow2">آقای مکسیوس</span>
+                        </div>
+                    </div>
+                    <div class="content-aside-div px-6 pt-2 basis-1/3">
+                        <div class="content-aside flex flex-col bg-transparent gap-[15px]">
+                            <div id="content-replace" class="flex-col gap-1 hidden">
+                                <div class="font-[Kalameh-ExtraLight] text-lg font-light">
+                                    توسعه دهنده ویندوز و وب
+                                </div>
+                                <span class="font-[Kalameh-Black] text-[42px] text-shadow2">آقای مکسیوس</span>
+                            </div>
+                            <div class="flex flex-col justify-end w-[8rem] h-[1px] bg-white"></div>
+                            <p class="font-[Kalameh-ExtraLight] text-justify text-base">
+                                سلام ! به وبسایت شخصی من خیلی خوش اومدید. بنده آقای مکسیوس هستم
+                                و در اینجا اطلاعات مفیدی درباره خودم و کارم در اختیار شما عزیزان
+                                قرار دادم تا بتونید بهتر و بیشتر با من آشنا بشید .
+                            </p>
+                            <div class="flex md:mt-6 items-end mb-4">
+                                <a class="border-transparent border-[0.5px] transiotion duration-150 hover:border-[#fff] font-[Kalameh-Regular] button-two-effect py-[15px] w-full flex justify-center mb-2"
+                                    href="#">
+                                    <span>مطالعه بیوگرافی</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <div class="flex flex-col gap-[1.5rem] basis-[70%] grow">
+                <!-- My Services -->
+                <div class="portofilo-services flex flex-row gap-[1.5rem]">
+                    <!-- Service 1 -->
+                    <div
+                        class="portofilo-service border-transparent border-[0.5px] transiotion duration-150 hover:border-[#919191] flex flex-row shrink grow portofilo-effect py-[2rem] px-[2rem] gap-4 basis-1/2">
+                        <div>
+                            <img class="h-20 hover:rotate-[4deg] hover:scale-[1.10] transiotion duration-300"
+                                src="../public/assets/images/graphic-designer.png" alt="graphic-designer" />
+                        </div>
+                        <div class="flex flex-col gap-[0.5rem]">
+                            <p class="font-[Kalameh-thin] text-lg">
+                                <a href="">مشاهده تعرفه و خدمات</a>
+                            </p>
+                            <p class="font-[Kalameh-Black] text-[28px] text-shadow">
+                                طراحی و ساخت سایت
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Service 2 -->
+                    <div
+                        class="portofilo-service border-transparent border-[0.5px] transiotion duration-150 hover:border-[#919191] flex flex-row shrink grow portofilo-effect py-[2rem] px-[2rem] gap-4 basis-1/2">
+                        <div>
+                            <img class="h-20 hover:rotate-[4deg] hover:scale-[1.10] transiotion duration-300"
+                                src="../public/assets/images/dollar.png" alt="graphic-designer" />
+                        </div>
+                        <div class="flex flex-col gap-[0.5rem]">
+                            <p class="font-[Kalameh-thin] text-lg">
+                                <a href="">مشاهده تعرفه و خدمات</a>
+                            </p>
+                            <p class="font-[Kalameh-Black] text-[28px] text-shadow">
+                                بازدید و فروش در سایت
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Contact Items -->
+                <div class="portofilo-contact flex flex-row gap-[1.5rem]">
+                    <!-- Contact 1 -->
+                    <div
+                        class="border-transparent border-[0.5px] transiotion duration-150 hover:border-[#919191] flex flex-col portofilo-effect py-[2rem] px-[2rem] gap-4 basis-1/3 justify-center items-center">
+                        <div>
+                            <a href="">
+                                <img class="h-[5rem] hover:-translate-y-2 transiotion duration-500"
+                                    src="../public/assets/images/cloud-computing.png" alt="graphic-designer" />
+                            </a>
+                        </div>
+                        <div class="flex flex-col gap-[1rem]">
+                            <p class="font-[Kalameh-Black] text-[25px] text-center">
+                                <a href="">دانلود رزومه کاری</a>
+                            </p>
+                            <p class="font-[Kalameh-thin] text-base text-center">
+                                <a href="">برای مشاهده کلیک کنید</a>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Contact 2 -->
+                    <div
+                        class="border-transparent border-[0.5px] transiotion duration-150 hover:border-[#919191] flex flex-col portofilo-effect py-[2rem] px-[2rem] gap-4 basis-1/3 justify-center items-center">
+                        <div>
+                            <a href="">
+                                <img class="h-[5rem] hover:-translate-y-2 transiotion duration-500"
+                                    src="../public/assets/images/briefcase.png" alt="graphic-designer" />
+                            </a>
+                        </div>
+                        <div class="flex flex-col gap-[1rem]">
+                            <p class="font-[Kalameh-Black] text-[25px] text-center">
+                                <a href="">نمونه کار های من</a>
+                            </p>
+                            <p class="font-[Kalameh-thin] text-base text-center">
+                                <a href="">برای مشاهده کلیک کنید</a>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Contact 3 -->
+                    <div
+                        class="border-transparent border-[0.5px] transiotion duration-150 hover:border-[#919191] flex flex-col portofilo-effect py-[2rem] px-[2rem] gap-4 basis-1/3 justify-center items-center">
+                        <div>
+                            <a href=""><img class="h-[5rem] hover:-translate-y-2 transiotion duration-500"
+                                    src="../public/assets/images/check.png" alt="graphic-designer" /></a>
+                        </div>
+                        <div class="flex flex-col gap-[1rem]">
+                            <p class="font-[Kalameh-Black] text-[25px] text-center">
+                                <a href="">
+                                    شرایط شروع همکاری
+                                </a>
+                            </p>
+                            <p class="font-[Kalameh-thin] text-base text-center">
+                                <a href="">برای مشاهده کلیک کنید</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Customers Comment -->
+                <div class="flex flex-row gap-[1.5rem] overflow-hidden">
+                    <!-- Comments -->
+                    <div
+                        class="border-transparent border-[0.5px] transiotion duration-150 hover:border-[#919191] flex flex-col grow portofilo-effect py-[2rem] px-[2rem] gap-4 basis-1/3">
+                        <div class="flex flex-col gap-[1.5rem]">
+                            <div class="flex justify-center">
+                                <p class="font-[Kalameh-Black] text-[30px] text-shadow text-center">
+                                    نظرات مشتریان
+                                </p>
+                            </div>
+                            <div class="flex shrink-0 grow gap-6">
+                                <!-- Slide 1 -->
+                                <div class="portofilo-comment flex flex-row gap-8 basis-full shrink-0">
+                                    <div class="flex flex-col basis-1/5 items-center justify-center">
+                                        <img class="outline-offset-4 outline rounded-full w-[6rem]"
+                                            src="../public/assets/images/customer1.jpg" alt="customer-picture" />
+                                        <span class="font-[Kalameh-Bold] text-center mt-3">بهرام پورجمشید</span>
+                                        <span class="font-[Kalameh-thin] text-center">مدیریت شرکت</span>
+                                    </div>
+                                    <div
+                                        class="flex flex-col basis-4/5 grow bg-[#333333] rounded-[25px] p-6 border-[0.1px] border-[#515151]">
+                                        <p class="text-[#D3D3D3] text-justify font-[Kalameh-Regular]">لورم ایپسوم متن
+                                            ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                                            چاپگرها و متون بلکه روزنامه
+                                            و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
+                                            و کاربردهای متنوع با هدف بهبود ابزارهای
+                                            کاربردی می باشد.
+                                        </p>
+                                        <div class="arrow-right relative left-9 bottom-12"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- Footer Section -->
+        <footer class="portofilo-footer mt-[0.5rem] pt-[1.5rem]">
+            <div class="flex flex-col gap-[1.5rem]">
+                <div
+                    class="border-transparent border-[0.5px] transiotion duration-150 hover:border-[#919191] flex flex-col shrink grow portofilo-effect py-[2rem] px-[3rem] gap-4">
+                    <div class="portofilo-footer-div flex flex-row gap-[1.5rem]">
+                        <div class="flex md:flex-row gap-3 basis-[60%] shrink flex-col items-center">
+                            <div class="flex justify-center items-center">
+                                <img class="md:w-[85px] w-[150px] cursor-pointer hover:scale-[1.10] transiotion duration-300"
+                                    src="../public/assets/images/enamad_icon_text_color_white_1024-768x768-1.png"
+                                    alt="enamd" />
+                            </div>
+                            <div class="flex flex-col gap-4">
+                                <h2
+                                    class="text-shadow font-[Kalameh-Black] md:text-[38px] text-2xl text-center md:text-start">
+                                    شروع همکاری و مشاوره
+                                </h2>
+                                <p class="font-[Kalameh-thin] text-center md:text-start">
+                                    از طریق شبکه‌های اجتماعی میتوانید به صورت مستقیم با من در
+                                    تماس باشید.
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="socials-icon flex flex-row gap-2 items-center shrink basis-[40%] flex-wrap content-center justify-end">
+                            <div class="first-icons flex flex-row gap-2">
+                                <a class="hover:border-[#8D8D8D] hover:scale-[1.10] transiotion duration-300 flex justify-center items-center rounded-full w-[3.5rem] h-[3.5rem] bg-[#313131] border-[#FFFFFF26] border-[2px]"
+                                    href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a class="hover:border-[#8D8D8D] hover:scale-[1.10] transiotion duration-300 flex justify-center items-center rounded-full w-[3.5rem] h-[3.5rem] bg-[#313131] border-[#FFFFFF26] border-[2px]"
+                                    href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a class="hover:border-[#8D8D8D] hover:scale-[1.10] transiotion duration-300 flex justify-center items-center rounded-full w-[3.5rem] h-[3.5rem] bg-[#313131] border-[#FFFFFF26] border-[2px]"
+                                    href="https://instagram.com/mxqius"><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                            <div class="second-icons flex flex-row gap-2">
+                                <a class="hover:border-[#8D8D8D] hover:scale-[1.10] transiotion duration-300 flex justify-center items-center rounded-full w-[3.5rem] h-[3.5rem] bg-[#313131] border-[#FFFFFF26] border-[2px]"
+                                    href="https://t.me/mxqius"><i class="fa-solid fa-paper-plane"></i></a>
+                                <a class="hover:border-[#8D8D8D] hover:scale-[1.10] transiotion duration-300 flex justify-center items-center rounded-full w-[3.5rem] h-[3.5rem] bg-[#313131] border-[#FFFFFF26] border-[2px]"
+                                    href="mailto:mxqius@email.com"><i class="fa-regular fa-envelope"></i></a>
+                                <a class="hover:border-[#8D8D8D] hover:scale-[1.10] transiotion duration-300 flex justify-center items-center rounded-full w-[3.5rem] h-[3.5rem] bg-[#313131] border-[#FFFFFF26] border-[2px]"
+                                    href="tel:09029964774" target="_blank"><i class="fa-solid fa-phone"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-[5px] flex justify-center font-[Kalameh-thin]">
+                    <p class="text-[#BDBDBD]">
+                        © وبسایت ساخته شده توسط
+                        <a class="text-white" href="https://mxqius.ir/"><strong>آقای مکسیوس</strong></a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="../public/assets/js/script.js"></script>
+    <!-- <script src="../public/assets/js/profile-getter.js"></script> -->
+</body>
+
+</html>

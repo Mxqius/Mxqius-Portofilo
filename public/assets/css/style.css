@@ -1,0 +1,280 @@
+*,
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.button-effect {
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #222223;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #FFFFFF26;
+    border-radius: 15px;
+}
+
+.button-two-effect {
+    background-color: transparent;
+    background-image: linear-gradient(170deg, #333333 0%, #222222 100%);
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #FFFFFF26;
+    border-radius: 15px;
+}
+
+.portofilo-effect {
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #222223;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #FFFFFF26;
+    border-radius: 30px;
+}
+
+/* Font faces */
+@font-face {
+    font-family: Kalameh-Bold;
+    src: url("../fonts/Kalameh-Bold.ttf");
+}
+
+@font-face {
+    font-family: Kalameh-Regular;
+    src: url("../fonts/Kalameh-Regular.ttf");
+}
+
+@font-face {
+    font-family: Kalameh-Medium;
+    src: url("../fonts/Kalameh-Medium.ttf");
+}
+
+@font-face {
+    font-family: Kalameh-Black;
+    src: url("../fonts/Kalameh-Black.ttf");
+}
+
+@font-face {
+    font-family: Kalameh-Thin;
+    src: url("../fonts/Kalameh-Thin.ttf");
+}
+
+@font-face {
+    font-family: Kalameh-Light;
+    src: url("../fonts/Kalameh-Light.ttf");
+}
+
+@font-face {
+    font-family: Kalameh-ExtraLight;
+    src: url("../fonts/Kalameh-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: gg-sans-bold;
+    src: url("../fonts/gg\ sans\ Bold.woff");
+}
+
+@font-face {
+    font-family: gg-sans-regular;
+    src: url("../fonts/gg\ sans\ Regular.woff");
+}
+
+@font-face {
+    font-family: gg-sans-medium;
+    src: url("../fonts/gg\ sans\ Medium.woff");
+}
+
+@font-face {
+    font-family: whitney_book;
+    src: url("../fonts/whitney_book.otf");
+}
+
+@font-face {
+    font-family: whitney_light#555657;
+    src: url("../fonts/whitney_light.ttf");
+}
+
+/* Shadow */
+
+.text-shadow {
+    text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);
+}
+
+.text-shadow2 {
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+}
+
+.discord-shadow {
+    box-shadow: 0px 0px 20px #5755FE;
+}
+
+.discord-shadow2 {
+    box-shadow: 0px 0px 10px #2c2c2c;
+}
+
+/* Arrow Shape */
+
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #333333;
+}
+
+/* Shadow */
+/* OLD */
+/* .shadow-img {
+    box-shadow: inset 0px -340px 75px -10px #212121;
+} */
+
+.shadow-img {
+    box-shadow: inset 0px -120px 75px -10px #222222;
+}
+
+.profile-aside:hover {
+    transition: all 500ms ease;
+    box-shadow: inset 0px -320px 75px -10px #222222;
+}
+
+#discord-profile {
+    transition: all 2s linear;
+}
+
+i {
+    color: white;
+}
+
+#profileBanner {
+    background-image: url("https://cdn.discordapp.com/banners/923625254943875112/a_bcc6aabea7375c70d03691f883c980bb.gif?size=512");
+    background-size: cover;
+}
+
+.aside-picture-div {
+    box-shadow: inset 0px -120px 75px -10px #222222;
+}
+
+@media (max-width: 1095px) {
+    .portofilo-header {
+        justify-content: space-between;
+    }
+
+    .portofilo-nav-div {
+        display: none;
+    }
+
+    .portofilo-container {
+        flex-direction: column;
+    }
+
+    .profile-aside {
+        flex-direction: row;
+    }
+
+    .aside-picture-div {
+        background-position: 30px;
+        flex-basis: 50%;
+        border-radius: 0 30px 30px 0;
+        box-shadow: inset 120px 0px 75px -10px #222222;
+    }
+
+    #content-to-replace {
+        display: none;
+    }
+
+    #content-replace {
+        display: flex;
+    }
+
+    .content-aside-div {
+        flex-basis: 50%;
+        padding-block: 32px;
+    }
+
+    .portofilo-service {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .portofilo-service div {
+        text-align: center;
+    }
+
+    .portofilo-service img {
+        width: 125px;
+        height: 125px;
+    }
+
+}
+
+@media (max-width: 720px) {
+    .profile-aside {
+        flex-direction: column;
+    }
+
+    .portofilo-services {
+        flex-direction: column;
+    }
+
+    .portofilo-contact {
+        flex-direction: column;
+    }
+
+    .portofilo-aside-div {
+        flex-basis: 35rem;
+    }
+
+    .aside-picture-div {
+        background-position: center;
+        flex-basis: 66.666667%;
+        border-radius: 30px 30px 0 0;
+        box-shadow: inset 0px -120px 75px -10px #222222;
+    }
+
+    #content-to-replace {
+        display: flex;
+    }
+
+    #content-replace {
+        display: none;
+    }
+
+    .content-aside-div {
+        flex-basis: 33.333333%;
+        ;
+        padding: 0.5rem 1.5rem 0 1.5rem;
+    }
+
+    .socials-icon {
+        justify-content: center;
+    }
+
+    .portofilo-footer-div {
+        flex-direction: column;
+    }
+
+    .portofilo-comment {
+        flex-direction: column;
+    }
+}
+
+/* .slider-animation {
+    animation: loop-scroll 6s linear infinite;
+}
+
+@keyframes loop-scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(+100%);
+    }
+} */
